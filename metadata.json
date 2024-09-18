@@ -4,5 +4,6 @@
     "project_description": "an app for making the Earphones",
     "creation_time": "2024-09-18 06:45:53.435952",
     "current_state": "The current state of the application has a navbar and a header",
-    "selected_starter_template_id": "landwind"
+    "selected_starter_template_id": "landwind",
+    "frontend_theme_prompt": "The image features a vibrant and surreal color scheme dominated by hues of pink, purple, and black with ethereal, cosmic elements creating a fantastical landscape. The style is otherworldly and dreamlike, highlighting a large moon and two smaller celestial bodies amidst jagged mountains and reflective water."
 }
