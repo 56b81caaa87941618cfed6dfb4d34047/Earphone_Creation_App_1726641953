@@ -29,7 +29,7 @@ INSTRUCTION: Both of these lines are center aligned.
 export default {
     name: 'SimpleFooterComponent',
     data() {
-        return {
+      {
             expanded: false,
             tab: null,
         };
