@@ -1,5 +1,29 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"User Input Fields (e.g., name, email)\", \"checked\": true}, {\"feature\": \"Submit Button\", \"checked\": true}, {\"feature\": \"Validation Messages (e.g., required fields)\", \"checked\": false}, {\"feature\": \"Success Message after submission\", \"checked\": false}, {\"feature\": \"Reset Button to clear form\", \"checked\": false}, {\"feature\": \"Styling options for the form\", \"checked\": true}], \"input_token_count\": 291, \"output_token_count\": 108, \"time_taken\": \"0:00:01.676176\"}",
+        "message_id": "guest18092024064841",
+        "timestamp": "18092024064854",
+        "component_file_name": "simple_cta_component_1726641955",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "The user requested the AI assistant to add a button with the text \"Great.\" The AI acknowledged this request and confirmed it was adding the button. It then asked the user to describe the project in more detail. The assistant also noted that it is trained on data up to October 2023.",
+        "timestamp": "18092024064854",
+        "message_id": "guest18092024064841"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific fields do you want included in the simple form (e.g., name, email, message)?\", \"option1\": \"I want fields for name and email.\", \"option2\": \"I want fields for name, email, and message.\"}, {\"question 2\": \"How would you like the form's layout to be designed (e.g., single column, multi-column)?\", \"option1\": \"I prefer a single column layout.\", \"option2\": \"I prefer a multi-column layout.\"}], \"input_token_count\": 337, \"output_token_count\": 118, \"time_taken\": \"0:00:01.224897\"}",
+        "message_id": "guest18092024064841",
+        "timestamp": "18092024064850",
+        "component_file_name": "simple_cta_component_1726641955",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Sure, I'm working on adding a simple Form now.",
         "message_id": "guest18092024064841",
@@ -7,12 +31,6 @@
         "component_file_name": "",
         "div_id": "",
         "div_action": ""
-    },
-    {
-        "role": "summary",
-        "content": "Can you describe the project a bit more?",
-        "timestamp": "18092024064846",
-        "message_id": "guest18092024064841"
     },
     {
         "role": "user",
@@ -73,24 +91,6 @@
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What style do you want for the button (e.g., color, size, shape)?\", \"option1\": \"Round button style\", \"option2\": \"Square button style\"}, {\"question 2\": \"Where on the screen would you like this button to be positioned?\", \"option1\": \"Top section of the screen\", \"option2\": \"Bottom section of the screen\"}], \"input_token_count\": 290, \"output_token_count\": 92, \"time_taken\": \"0:00:01.225144\"}",
         "message_id": "guest18092024064732",
         "timestamp": "18092024064739",
-        "component_file_name": "simple_cta_component_1726641955",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Sure, I'm adding a button with the text 'Great'.",
-        "message_id": "guest18092024064732",
-        "timestamp": "18092024064735",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "Add a button with text Great",
-        "message_id": "guest18092024064732",
-        "timestamp": "18092024064734",
         "component_file_name": "simple_cta_component_1726641955",
         "div_id": "",
         "div_action": ""
