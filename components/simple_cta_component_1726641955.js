@@ -49,6 +49,20 @@ INSTRUCTION: Summary: This component contains a h2 heading title for the CTA, a 
                     </form>
                 </div>
 
+                <div id="form-container" class="flex mt-8">
+                    <form id="cta-form" class="flex-1 space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full px-4 py-2 rounded-full bg-white bg-opacity-20 text-white placeholder-purple-200 focus:outline-none focus:ring-2 focus:ring-pink-500">
+                        <input type="email" placeholder="Your Email" class="w-full px-4 py-2 rounded-full bg-white bg-opacity-20 text-white placeholder-purple-200 focus:outline-none focus:ring-2 focus:ring-pink-500">
+                        <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-20 text-white placeholder-purple-200 focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+                        <button type="submit" class="w-full text-white bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-lg px-8 py-3 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+                            <span class="flex items-center justify-center">
+                                <i class='bx bx-send mr-2'></i>
+                                Send Message
+                            </span>
+                        </button>
+                    </form>
+                </div>
+
             </div>
         </div>
     </section>
@@ -63,6 +77,14 @@ export default {
         };
     },
     methods: {
+        // Form submission method
+        submitForm(event) {
+            event.preventDefault();
+            console.log("Form submitted");
+            // Add your form submission logic here
+        }
+        // End of form submission method
+    }
         // Form submission method
         submitForm(event) {
             event.preventDefault();
