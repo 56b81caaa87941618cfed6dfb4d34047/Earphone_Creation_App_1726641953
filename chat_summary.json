@@ -1,5 +1,11 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a dropdown menu for earphone selection\", \"checked\": false}, {\"feature\": \"Incorporate a color picker for customization\", \"checked\": false}, {\"feature\": \"Include a save design button\", \"checked\": true}, {\"feature\": \"Display a preview section for the earphones\", \"checked\": false}, {\"feature\": \"Add social media sharing buttons\", \"checked\": false}], \"input_token_count\": 244, \"output_token_count\": 95, \"time_taken\": \"0:00:01.391019\"}",
+        "timestamp": "18092024064742",
+        "message_id": "guest18092024064732"
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What style do you want for the button (e.g., color, size, shape)?\", \"option1\": \"Round button style\", \"option2\": \"Square button style\"}, {\"question 2\": \"Where on the screen would you like this button to be positioned?\", \"option1\": \"Top section of the screen\", \"option2\": \"Bottom section of the screen\"}], \"input_token_count\": 290, \"output_token_count\": 92, \"time_taken\": \"0:00:01.225144\"}",
         "timestamp": "18092024064739",
