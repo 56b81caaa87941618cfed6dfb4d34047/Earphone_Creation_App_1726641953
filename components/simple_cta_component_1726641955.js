@@ -25,6 +25,15 @@ INSTRUCTION: Summary: This component contains a h2 heading title for the CTA, a 
                         </span>
                     </a>
                 </div>
+
+                <div id="great-button-container" class="flex mt-4">
+                    <button id="great-button" class="flex-1 text-white bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-lg px-8 py-3 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl">
+                        <span class="flex items-center justify-center">
+                            <i class='bx bx-check-circle mr-2'></i>
+                            Great
+                        </span>
+                    </button>
+                </div>
             </div>
         </div>
     </section>
