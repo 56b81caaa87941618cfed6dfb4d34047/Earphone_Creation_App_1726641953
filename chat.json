@@ -1,5 +1,14 @@
 [
     {
+        "role": "user",
+        "content": "add a form ",
+        "message_id": "guest18092024064756",
+        "timestamp": "18092024064758",
+        "component_file_name": "simple_cta_component_1726641955",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_ui_checklist",
         "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a dropdown menu for earphone selection\", \"checked\": false}, {\"feature\": \"Incorporate a color picker for customization\", \"checked\": false}, {\"feature\": \"Include a save design button\", \"checked\": true}, {\"feature\": \"Display a preview section for the earphones\", \"checked\": false}, {\"feature\": \"Add social media sharing buttons\", \"checked\": false}], \"input_token_count\": 244, \"output_token_count\": 95, \"time_taken\": \"0:00:01.391019\"}",
         "message_id": "guest18092024064732",
